@@ -1,0 +1,29 @@
+.statistics {
+  box-sizing: border-box;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+
+  border-color: aquamarine;
+}
+
+.label {
+  font-size: 14px;
+  color: green;
+}
+
+.percentage {
+  font-size: 20px;
+  color: green;
+}
+
+.item {
+  display: grid;
+  width: 100px;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  padding: 0px;
+}

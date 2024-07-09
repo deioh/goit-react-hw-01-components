@@ -1,26 +1,26 @@
 //import React from 'react'
+import s from './Statistics.module.css';
 
 export const Statistics = () => {
   return (
-    <section class="statistics">
-      <h2 class="title">Upload stats</h2>
-
-      <ul class="stat-list">
-        <li class="item">
-          <span class="label">.docx</span>
-          <span class="percentage">4%</span>
+    <section className={s.statistics}>
+      <h2 className="title">Upload stats</h2>
+      <ul className={s.menu}>
+        <li className={s.item}>
+          <span className={s.label}>.docx</span>
+          <span className={s.percentage}>4%</span>
         </li>
-        <li class="item">
-          <span class="label">.mp3</span>
-          <span class="percentage">14%</span>
+        <li className={s.item}>
+          <span className={s.label}>.mp3</span>
+          <span className={s.percentage}>14%</span>
         </li>
-        <li class="item">
-          <span class="label">.pdf</span>
-          <span class="percentage">41%</span>
+        <li className={s.item}>
+          <span className={s.label}>.pdf</span>
+          <span className={s.percentage}>41%</span>
         </li>
-        <li class="item">
-          <span class="label">.mp4</span>
-          <span class="percentage">12%</span>
+        <li className={s.item}>
+          <span className={s.label}>.mp4</span>
+          <span className={s.percentage}>12%</span>
         </li>
       </ul>
     </section>
