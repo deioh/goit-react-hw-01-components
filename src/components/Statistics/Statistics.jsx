@@ -2,13 +2,13 @@
 import data from '../../components/data/data.json';
 import s from './Statistics.module.css';
 
-export const Statistics = ({ label, percentage }) => {
+export const Statistics = ({ id, label, percentage }) => {
   return (
     <section className={s.statistics}>
       <h2 className="title">Upload stats</h2>
       <ul className={s.menu}>
         <li className={s.item}>
-          <span className={s.label}>.docx</span>
+          <span className={s.label}>data.label</span>
           <span className={s.percentage}>4%</span>
         </li>
         <li className={s.item}>
