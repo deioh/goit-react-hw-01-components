@@ -1,0 +1,22 @@
+.TransactionHistory{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.tbody{
+    display: grid;    
+    text-align: center;
+    align-items: center;     
+    }
+
+    .trbody {        
+        padding: 0px;
+        
+    }
+
+    .tdbody{        
+        
+        padding: 10px
+    }
